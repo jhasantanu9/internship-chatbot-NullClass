@@ -1,4 +1,0 @@
-Model was built can't be uploaded to GitHub because of it's large size 
-link to the google drive (download)
-In local environment paste it in this folder 
-run app.py 
