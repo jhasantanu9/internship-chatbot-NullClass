@@ -1,0 +1,193 @@
+{
+  "intents": [
+    {
+      "intent": "Greetings",
+      "examples": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Greetings",
+        "What's up?",
+        "How are you?",
+        "How's it going?",
+        "What's happening?",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! Welcome to NullClass. How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! What information are you looking for today?",
+        "Good to see you! How can I assist you with NullClass?"
+      ]
+    },
+    {
+      "intent": "What is NullClass",
+      "examples": [
+        "What is NullClass?",
+        "Can you tell me what NullClass does?",
+        "Explain NullClass to me.",
+        "What services does NullClass provide?",
+        "Describe NullClass.",
+        "What type of organization is NullClass?",
+        "How does NullClass help students?",
+        "What is the purpose of NullClass?"
+      ],
+      "responses": [
+        "NullClass is an innovative platform that provides students with real-world industry experience by working on actual projects, gaining in-demand skills, and building an impressive portfolio. We bridge the gap between academic knowledge and practical application, ensuring students are job-ready for the tech industry."
+      ]
+    },
+    {
+      "intent": "About NullClass",
+      "examples": [
+        "Tell me about NullClass.",
+        "What is the mission of NullClass?",
+        "Can you give me a brief overview of NullClass?",
+        "What does NullClass stand for?",
+        "Who runs NullClass?",
+        "What are the goals of NullClass?",
+        "What is the philosophy behind NullClass?"
+      ],
+      "responses": [
+        "NullClass empowers students with real-world problem-solving abilities and industry-ready skills by offering hands-on projects, mentorship, certifications, and paid internships. Our mission is to restore the true value of education by equipping students with practical skills, not just academic knowledge."
+      ]
+    },
+    {
+      "intent": "Why NullClass",
+      "examples": [
+        "Why should I choose NullClass over others?",
+        "What makes NullClass unique?",
+        "Why is NullClass a good choice for students?",
+        "What are the benefits of studying at NullClass?",
+        "Why should I enroll in NullClass?",
+        "What advantages does NullClass offer?",
+        "What differentiates NullClass from other educational platforms?"
+      ],
+      "responses": [
+        "NullClass is dedicated to empowering tech talent with industry-ready skills. By working on real projects, receiving personalized mentorship, and earning recognized certifications, you gain practical experience that employers value. We ensure you're not just job-ready, but career-ready."
+      ]
+    },
+    {
+      "intent": "How to Register / How it Works",
+      "examples": [
+        "How do I register at NullClass?",
+        "What is the registration process for NullClass?",
+        "How does NullClass work?",
+        "Can you explain the steps to enroll?",
+        "What do I need to do to start learning at NullClass?",
+        "Walk me through the registration process at NullClass.",
+        "How can I begin my journey with NullClass?"
+      ],
+      "responses": [
+        "\n1. Select and enroll in a NullClass project that interests you.\n2. Work through and successfully complete your chosen project.\n3. Secure a practical, experience-based certification after finishing the project.\n4. For real industrial experience, apply further for an internship and receive tasks.\n5. Execute the assigned tasks effectively.\n6. Complete tasks within the given timeframe to receive an internship certificate and a ₹3,000 stipend.\n7. Otherwise, upon task completion, receive an internship certificate.\nFor registration details, visit [nullclass.com](https://www.nullclass.com)"
+      ]
+    },
+    {
+      "intent": "Certifications",
+      "examples": [
+        "Do you offer certifications?",
+        "How can I earn certifications at NullClass?",
+        "What certifications can I get from NullClass?",
+        "Are the certifications recognized?",
+        "Can you tell me more about your certification process?",
+        "What are the benefits of obtaining certifications from NullClass?",
+        "How do certifications at NullClass enhance my career?"
+      ],
+      "responses": [
+        "NullClass provides industry-recognized certifications that validate your expertise and enhance your credibility. Upon completing real projects, you receive certifications recognized by top companies, helping you stand out and access global opportunities."
+      ]
+    },
+    {
+      "intent": "Projects",
+      "examples": [
+        "What kind of projects does NullClass offer?",
+        "Can I work on real projects at NullClass?",
+        "What are the available projects?",
+        "Tell me about the projects at NullClass.",
+        "Do you have any specific projects for web development?",
+        "How can I access the projects offered by NullClass?",
+        "What categories of projects can I choose from?"
+      ],
+      "responses": [
+        "NullClass offers a wide range of cutting-edge industry projects across categories like Web Development, Game Development, Mobile App Development, Data Science, Blockchain, Flutter Development, Data Analyst, Software Testing, and Front-end Web Development. These projects help you build an impressive portfolio and gain real-world experience. Check out our projects at [NullClass Projects](https://www.nullclass.com/projects)"
+      ]
+    },
+    {
+      "intent": "Mentorship",
+      "examples": [
+        "Does NullClass provide mentorship?",
+        "Can I get a mentor at NullClass?",
+        "How does mentorship work at NullClass?",
+        "What type of mentorship do you offer?",
+        "Will I have access to mentors?",
+        "Can mentors help me with my career?",
+        "What are the benefits of having a mentor at NullClass?"
+      ],
+      "responses": [
+        "Yes, NullClass offers personalized mentorship from seasoned professionals. You receive expert guidance to overcome challenges and fast-track your career growth in the tech industry. Our mentors are dedicated to helping you achieve your professional goals."
+      ]
+    },
+    {
+      "intent": "Internships",
+      "examples": [
+        "Does NullClass offer internships?",
+        "How do I apply for an internship at NullClass?",
+        "Can I get a paid internship at NullClass?",
+        "What is the process for securing an internship?",
+        "Are internships guaranteed after the program?",
+        "What are the benefits of the internships at NullClass?",
+        "Tell me more about the internship opportunities."
+      ],
+      "responses": [
+        "Yes, NullClass offers guaranteed paid internships upon successful completion of our real-time training projects. Interns can earn a ₹3,000 stipend upon completing assigned tasks during the internship. For more information, contact us at +91 81488 13025 or email training@nullclass.com."
+      ]
+    },
+    {
+      "intent": "Payments",
+      "examples": [
+        "What are the payment options?",
+        "How much does it cost to register at NullClass?",
+        "What are the fees for courses at NullClass?",
+        "Can I pay in installments?",
+        "Is there a refund policy?",
+        "What payment methods do you accept?",
+        "How do I make a payment for my course?"
+      ],
+      "responses": [
+        "The training at NullClass starts at ₹997. For more details on payment options, please visit our website or contact our support team. We accept various payment methods to make the process easier for you."
+      ]
+    },
+    {
+      "intent": "Contact Information",
+      "examples": [
+        "How can I contact NullClass?",
+        "What is NullClass's contact information?",
+        "How do I reach NullClass support?",
+        "Is there a phone number for NullClass?",
+        "Can I connect with NullClass on social media?",
+        "Where can I find support for my queries?",
+        "What are the communication channels for NullClass?"
+      ],
+      "responses": [
+        "You can contact NullClass via [WhatsApp](https://api.whatsapp.com/send/?phone=918148813025&text&type=phone_number&app_absent=0) or send an email to support@nullclass.com. You can also connect with us on social media:\n- [LinkedIn](https://www.linkedin.com/company/nullclass)\n- [YouTube](https://www.youtube.com/channel/UCjTG0_Ofi2IDoEevikUb3uA)\n- [Twitter](https://x.com/nullclassdotcom?mx=2)\n- [Facebook](https://www.facebook.com/NullClass/)\n- [Instagram](https://www.instagram.com/nullclasstraining/)"
+      ]
+    },
+    {
+      "intent": "Exit",
+      "examples": [
+        "Exit",
+        "Goodbye",
+        "End chat",
+        "See you later",
+        "Thanks for the information!",
+        "I'm done for now",
+        "Thank you, that's all I needed"
+      ],
+      "responses": [
+        "Thank you for chatting with NullClass! If you have any more questions, feel free to reach out. Have a great day!"
+      ]
+    }
+  ]
+}
