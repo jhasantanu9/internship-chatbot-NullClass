@@ -159,6 +159,34 @@ chatbot = MultilingualChatbotPredictor(
     confidence_threshold=0.4
 )
 ```
+## 📊 Logging and Monitoring
+The application includes comprehensive logging:
+
+Request/response logging
+Error tracking
+Performance metrics
+User feedback collection
+
+Logs are formatted as:
+Copy2024-10-30 10:18:00,123 - chatbot - INFO - Message processed: Success
+
+## 🛡️ Security Features
+Session management with secure key generation
+Input validation and sanitization
+Error handling and safe error messages
+CSRF protection
+
+## 🤝 Contributing
+
+Fork the repository
+Create a feature branch (git checkout -b feature/AmazingFeature)
+Commit changes (git commit -m 'Add AmazingFeature')
+Push to branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+
+## 📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 ## 🙏 Acknowledgments
 
