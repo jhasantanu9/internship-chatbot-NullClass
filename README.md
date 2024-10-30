@@ -159,32 +159,73 @@ chatbot = MultilingualChatbotPredictor(
     confidence_threshold=0.4
 )
 ```
-## 📊 Logging and Monitoring
-The application includes comprehensive logging:
+**Customizing and Extending the Chatbot**
+=====================================
 
-Request/response logging
-Error tracking
-Performance metrics
-User feedback collection
+### Intent File Structure
 
-Logs are formatted as:
+To customize the chatbot, you can modify the intent file (`model/intents.json`) to add new intents or update existing ones. The intent file should follow this structure:
+
+```json
+{
+    "intents": [
+        {
+            "intent": "greeting",
+            "examples": [
+                "hello",
+                "hi",
+                "hey there"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi! Welcome to NullClass support!"
+            ]
+        }
+    ]
+}
+```
+
+Replace the `intent` field with the name of your custom intent and populate the `examples` and `responses` fields with relevant examples and responses.
+
+### Training on New Intents
+
+To train the model using a custom intents file, run the following command:
+
+```bash
+python bot.py --intents_file path/to/your/intents.json
+```
+
+**Logging and Monitoring**
+-------------------------
+
+The chatbot includes comprehensive logging features to ensure smooth operation. Logs are formatted as follows:
+
+```
 Copy2024-10-30 10:18:00,123 - chatbot - INFO - Message processed: Success
+```
 
-## 🛡️ Security Features
-Session management with secure key generation
-Input validation and sanitization
-Error handling and safe error messages
-CSRF protection
+### Security Features
 
-## 🤝 Contributing
+To ensure the security of your chatbot, consider the following features:
 
-Fork the repository
-Create a feature branch (git checkout -b feature/AmazingFeature)
-Commit changes (git commit -m 'Add AmazingFeature')
-Push to branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+*   **Session management**: Secure key generation for session management.
+*   **Input validation and sanitization**: Validate and sanitize user input to prevent malicious activities.
+*   **Error handling and safe error messages**: Handle errors safely and display non-sensitive error messages.
 
-## 📝 License
+**Contributing**
+--------------
+
+To contribute to the project, follow these steps:
+
+1.  Fork the repository: `git fork https://github.com/username/chatbot.git`
+2.  Create a feature branch: `git checkout -b feature/AmazingFeature`
+3.  Commit changes: `git commit -m 'Add AmazingFeature'`
+4.  Push to branch: `git push origin feature/AmazingFeature`
+5.  Open a Pull Request
+
+**License**
+---------
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
