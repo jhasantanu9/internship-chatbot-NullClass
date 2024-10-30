@@ -18,26 +18,26 @@ A sophisticated customer service chatbot developed during my internship at [Null
 ## 📂 Project Structure
 
 ```
-├── analytics/                          # Analytics components
+├── analytics/                       # Analytics components
 │   ├── chatbot_analytics.db           # SQLite database for analytics
 │   ├── dashboard.py                   # Streamlit analytics dashboard
 │   └── database_handler.py            # Database operations handler
-├── language/                          # Language processing
+├── language/                        # Language processing
 │   └── language_handler.py            # Multilingual support implementation
-├── model/                             # Model and intent files
+├── model/                           # Model and intent files
 │   ├── best_model.pth                 # Trained BERT model (download required)
 │   ├── intents.json                   # Intent configuration file
-│   └── How to get the model.txt       # Instructions for model download
-├── model_artifacts/                   # Training related files
+│   └──  MODEL_SETUP_INSTRUCTIONS.md   # Instructions for model download
+├── model_artifacts/                 # Training related files
 │   ├── bot.ipynb                      # Training notebook
 │   ├── bot.py                         # Training script
 │   └── intents.json                   # Training intents
-├── static/                           # Frontend assets
-│   ├── script.js                     # Chat interface interactions
-│   ├── style.css                     # Chat interface styling
-│   └── favicon.ico                   # Website favicon
-├── templates/                        # HTML templates
-│   └── index.html                   # Main chat interface
+├── static/                          # Frontend assets
+│   ├── script.js                      # Chat interface interactions
+│   ├── style.css                      # Chat interface styling
+│   └── favicon.ico                    # Website favicon
+├── templates/                       # HTML templates
+│   └── index.html                     # Main chat interface
 ├── app.py                           # Main Flask application
 ├── chatbot.py                       # Core chatbot logic
 └── requirements.txt                 # Project dependencies
