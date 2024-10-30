@@ -124,6 +124,24 @@ The Streamlit dashboard provides real-time insights into:
 - Real-time metrics tracking
 - Interactive Streamlit dashboard
 
+  **Logging and Monitoring**
+-------------------------
+
+The chatbot includes comprehensive logging features to ensure smooth operation. Logs are formatted as follows:
+
+```
+Copy2024-10-30 10:18:00,123 - chatbot - INFO - Message processed: Success
+```
+
+### Security Features
+
+To ensure the security of your chatbot, consider the following features:
+
+*   **Session management**: Secure key generation for session management.
+*   **Input validation and sanitization**: Validate and sanitize user input to prevent malicious activities.
+*   **Error handling and safe error messages**: Handle errors safely and display non-sensitive error messages.
+
+
 ## 💻 API Usage
 
 ### Chat Endpoint
@@ -195,23 +213,6 @@ To train the model using a custom intents file, run the following command:
 python bot.py --intents_file path/to/your/intents.json
 ```
 
-**Logging and Monitoring**
--------------------------
-
-The chatbot includes comprehensive logging features to ensure smooth operation. Logs are formatted as follows:
-
-```
-Copy2024-10-30 10:18:00,123 - chatbot - INFO - Message processed: Success
-```
-
-### Security Features
-
-To ensure the security of your chatbot, consider the following features:
-
-*   **Session management**: Secure key generation for session management.
-*   **Input validation and sanitization**: Validate and sanitize user input to prevent malicious activities.
-*   **Error handling and safe error messages**: Handle errors safely and display non-sensitive error messages.
-
 **Contributing**
 --------------
 
@@ -227,7 +228,6 @@ To contribute to the project, follow these steps:
 ---------
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
 
 ## 🙏 Acknowledgments
 
