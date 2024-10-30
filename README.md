@@ -124,7 +124,7 @@ The Streamlit dashboard provides real-time insights into:
 - Real-time metrics tracking
 - Interactive Streamlit dashboard
 
-###Logging and Monitoring
+### Logging and Monitoring
 
 The chatbot includes comprehensive logging features to ensure smooth operation. Logs are formatted as follows:
 
